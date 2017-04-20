@@ -21,6 +21,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    publicPath: 'https://fastestorange.github.io/croatia-bosnia-trip/croatia-bosnia-trip/dist/_nuxt/',
     /*
     ** Run ESLINT on save
     */
