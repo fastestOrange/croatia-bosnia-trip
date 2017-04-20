@@ -46,6 +46,10 @@ export default {
 </script>
 
 <style>
+p{
+  font-family: Helvetica;
+  font-size: 1.2em;
+}
 .list{
   min-height: 100vh;
   margin: 20px;
@@ -54,18 +58,22 @@ export default {
   flex-direction: column;
   align-items: center;
   text-align: center;
+
 }
 .point-in-time{
   border-radius: 3px;
+  box-shadow: 5px 3px 2px #999;
   padding: 30px;
   border: 1px #999 solid;
   margin: 30px auto;
+  background-color: rgba(255, 228, 196, .3);
 }
 .side-to-side{
   display: flex;
   flex-direction: row;
 }
 .image{
+
 
 }
 .text-on-right{
